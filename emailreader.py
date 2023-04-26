@@ -69,10 +69,6 @@ def mark_as_read(service, messages):
 
 
 def main():
-  """Shows basic usage of the Gmail API.
-  Lists the user's Gmail labels.
-  """
-
   # Login to gmail
   creds = authenticate()
 
